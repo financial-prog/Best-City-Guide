@@ -1,0 +1,51 @@
+   html {
+    font-family: sans-serif; 
+    line-height: 20px; 
+  }
+  
+  body {
+    margin: 0;
+  }
+
+  header,
+  figure{
+    display: block;
+  }
+  
+  h1 {
+    font-size: 20px;
+    margin: 0.67em 0;
+  }
+  
+  figure {
+    margin: 0;
+    line-height: 0;
+    position: relative;
+  }
+
+  ol,ul {
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+  }
+  
+  a{
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  a:active,
+  a:hover {
+    outline-width: 0;
+  }
+ 
+  b,
+  strong {
+    font-weight: inherit;
+    font-weight: bolder;
+  }
+ 
+  img {
+    border-style: none;
+  }
+  

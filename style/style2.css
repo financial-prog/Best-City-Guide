@@ -1,0 +1,189 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	color: #3a3a3a;
+}
+
+p {
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+h2,
+h3,
+li {
+	color: #093a58;
+    margin-top: 0;
+}
+
+li {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.name {
+	font-size: 20px;
+}
+
+.name a,
+.main-nav a {
+	text-align: center;
+}
+
+.main-nav a {
+	font-size: 15px;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+   .setoon{
+      padding: 0 1em;
+   }
+
+    .banner {
+        color: #fff;
+        background: #3acec2;
+        padding: 35px;
+       margin-bottom: 60px;
+       text-align: center;
+    }
+
+    .main-header{
+        padding-top: .5em;
+    	padding-bottom: .5em;
+    }
+
+    .container{
+            padding: 10px 0;
+        }
+ 
+.imgcity {
+	width: 190px;
+}
+.food-img {
+	width: 100%;
+}
+.headline{
+    margin-bottom: 0;
+}
+
+@media (min-width: 769px) {
+    body{
+        padding-top: 94.78px;
+    }
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.name,
+	.setoon {
+		float: left;
+	}
+
+    .main-header{
+        position: fixed;
+        background: #fff;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+        top:0;
+        width: 100%;
+        z-index: 1;
+
+    }
+	.center,
+	.left {
+		width: 50%;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+	}
+
+     .main-nav a{
+       display: inline-block;
+       margin: 1em 10px;
+       padding: 0 10px;
+     }
+
+	.tagline {
+		font-size: 1.4em;
+	}
+
+    figcaption{
+        padding-bottom: .3em;
+    }
+
+    figcaption h4{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}
+
+@media (min-width: 1025px){
+
+    .container{
+        width: 85%;
+        max-width: 1150px;
+        margin: 0 auto;
+            }
+   
+   .name {
+       float: left;
+   }
+   
+   .main-nav{
+       float: right;
+   }
+
+   .main-nav li{
+       float: left;
+   }
+
+   .main-nav a{
+       display: inline-block;
+       margin: 1em 10px;
+       padding: 0 10px;
+   }
+
+   .setoon{
+       float: left;
+   }
+
+    .center{
+        width: 40%;
+    }
+   .left,
+   .right{
+       width: 30%;
+       padding-right: 2em;
+   }
+  
+    .clearfix::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
